@@ -1,2 +1,2 @@
-# SPS
-Basic Stone Paper Scissor with difficulty levels
+# RPS
+Basic Rock Paper Scissor with difficulty levels
