@@ -22,7 +22,9 @@ def sps():
     computer_score = 0
     win = ''
     while game_on:
-        player_choice = input('Rock(R) Paper(P) Scissor(S) ? : ')[0].lower()
+        player_choice = input('Rock(R) Paper(P) Scissor(S) ? : ')
+        if len(player_choice) > 0:
+            player_choice = player_choice[0].lower()
         if player_choice in ['r', 's', 'p']:
             computer_choice = comp_choice()
             win = winner(player_choice, computer_choice)
