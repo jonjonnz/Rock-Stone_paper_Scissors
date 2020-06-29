@@ -1,2 +1,2 @@
 # RPS
-Basic Rock Paper Scissor with difficulty levels
+Basic Rock Paper Scissor
